@@ -1,0 +1,18 @@
+appId: "com.stacc.activitycentercheckin"
+productName: "Activity Center - Check-In"
+executableName: "Check-In"
+electronFuses:
+  runAsNode: false
+  cookieEncryption: true
+  nodeOptions: false
+  nodeCliInspect: false
+  embeddedAsarIntegrityValidation: true
+  onlyLoadAppFromAsar: true
+  # loadBrowserProcessSpecificV8Snapshot: true
+  grantFileProtocolExtraPrivileges: false
+win:
+  target:
+    - target: dir
+      arch:
+        - x64
+        - arm64

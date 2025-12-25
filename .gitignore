@@ -1,3 +1,11 @@
+# Build output
+bin/
+user-interface/.next/
+user-interface/out/
+
+# Package output
+dist/
+
 # Logs
 logs
 *.log
